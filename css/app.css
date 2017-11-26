@@ -10,3 +10,7 @@ body {
 .col-xs-3{
 	border: 1px solid red;
 }
+
+#menu-container{
+	background-color: f7f7f9;
+}
