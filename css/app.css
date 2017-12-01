@@ -8,7 +8,8 @@ body {
 }
 
 
-#header-container .login{
+#header-container .login,
+#header-container .navbar-toggler{
 	color:white;
 }
 
@@ -27,4 +28,8 @@ body {
 
 input.form-control:focus {
 	border-color: #99c84a;
+}
+
+#search-bar {
+	padding:1em;
 }

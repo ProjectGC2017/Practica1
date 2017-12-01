@@ -36,20 +36,23 @@
       <nav id="navMenu" class="navbar-toggleable-xs navbar navbar-light collapse">
         <div class="container">
           <div class="row">
-            <div class="col-xs-10 offset-xs-2 col-md-4 offset-md-0">
+            <div class="col-xs-10 offset-xs-1 col-md-4 offset-md-0">
               <ul class="nav navbar-nav">
-                <li class="nav-item">
+                <li class="nav-item text-xs-center">
                   <a href="#" class="nav-link active">Home</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item text-xs-center">
                   <a href="#" class="nav-link">Catálogo</a>
                 </li>
-                <li class="nav-item">
+                <li class="nav-item text-xs-center">
                   <a href="#" class="nav-link">Carrito</a>
+                </li>
+                <li class="nav-item hidden-sm-up text-xs-center">
+                  <a href="#" class="nav-link">Login</a>
                 </li>
               </ul>
             </div>
-            <div class="col-xs-12 col-md-6 offset-md-2">
+            <div class="col-xs-12 col-md-6 offset-md-2 hidden-xs-down">
               <form>
                 <div class="input-group">
                   <input type="text" class="form-control" placeholder="Encontro lo que buscaba?">
@@ -66,6 +69,24 @@
           </div>
         </div>
       </nav>
+      <div id="search-bar" class="container hidden-sm-up">
+        <div class="row">
+          <div class="col-xs">
+              <form>
+                <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Encontro lo que buscaba?">
+                    <span class="input-group-btn">
+                      <button class="btn btn-bootstrap" type="button">
+                          <span class="hidden-sm-down">Buscar</span>
+                          <i class="fa fa-search hidden-md-up"></i>
+                      </button>
+                    <!--/span-->
+                  </input>
+                </div>   
+              </form>
+          </div>
+        </div>
+      </div>
       <!-- F./Menu -->
     </div>
 
