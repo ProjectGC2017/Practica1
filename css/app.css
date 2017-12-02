@@ -42,3 +42,8 @@ input.form-control:focus {
 #info-container h4{
 	margin: 1em 0;
 }
+
+#info-container img{
+	margin: 0 auto;
+	margin-top: 2em;
+}
