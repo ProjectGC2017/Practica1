@@ -47,3 +47,13 @@ input.form-control:focus {
 	margin: 0 auto;
 	margin-top: 2em;
 }
+
+#footer-container{
+	background-color: #1c3643;
+	color:white;
+	padding: 3em 0;
+}
+
+#footer-container h4{
+	font-size: 16px;
+}
