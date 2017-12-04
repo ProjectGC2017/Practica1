@@ -57,3 +57,13 @@ input.form-control:focus {
 #footer-container h4{
 	font-size: 16px;
 }
+
+#footer-container .nav-link{
+	color: white;
+}
+
+@media (max-width: 768px){ /*Tamaño de pantalla SMALL*/
+	#footer-container [class*="col-"]{
+		margin-bottom: 2em;
+	}
+}
