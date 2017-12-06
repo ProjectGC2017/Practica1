@@ -10,6 +10,7 @@ $form.submit(function (ev) {
 	$formControl.removeClass().addClass('form-control')
 	$formGroup.addClass (error ? 'has-danger' : 'has-success')
 	$formControl.addClass (error ? 'form-control-danger' : 'form-control-success')
+	$formGroup.find('.form-control-feedback').remove()
 
 	var el;
 	if(error){
