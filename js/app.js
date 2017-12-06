@@ -6,6 +6,11 @@ $form.submit(function (ev) {
 	ev.preventDefault()
 
 	const error = Math.random() > 0.5
+	$formGroup.removeClass().addClass('form-group')
+	$formControl.removeClass().addClass('form-control')
+	$formGroup.addClass (error ? 'has-danger' : 'has-success')
+	$formControl.addClass (error ? 'form-control-danger' : 'form-control-success')
+
 	var el;
 	if(error){
 		el = $('<div>',{ html: 'Ha ocurrido un error'})
