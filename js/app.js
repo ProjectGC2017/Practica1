@@ -24,5 +24,5 @@ $form.submit(function (ev) {
 })
 
 function mostrarModals() {
-	alert('Hola, este va a ser el modals')
+	$('#modalOferta').modal()
 }
