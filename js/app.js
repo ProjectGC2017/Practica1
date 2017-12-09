@@ -24,5 +24,13 @@ $form.submit(function (ev) {
 })
 
 function mostrarModals() {
-	$('#modalOferta').modal()
+
+	const noMostrarModal = JSON.parse(localStorage.noMostrarModal)
+	if (!noMostrarModal) {
+		$('#modalOferta').modal()
+	}
+
+	$('#btnNoRegistrar').click(function (ev) {
+		localStorage.noMostrarModal = true
+	})
 }
