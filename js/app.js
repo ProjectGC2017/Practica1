@@ -22,3 +22,7 @@ $form.submit(function (ev) {
 	el.addClass('form-control-feedback')
 	$formGroup.append(el)
 })
+
+function mostrarModals() {
+	alert('Hola, este va a ser el modals')
+}
