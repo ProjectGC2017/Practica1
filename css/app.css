@@ -84,3 +84,8 @@ input.form-control:focus {
 #breadcrumbs-container .breadcrumb .breadcrumb-item+.breadcrumb-item::before{
 	content: ">";
 }
+
+#filtros-container .list-group-item-action.active{
+	background-color: #99c84a;
+	border-color: #99c84a;
+}
