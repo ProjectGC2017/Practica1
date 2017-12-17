@@ -99,11 +99,6 @@ input.form-control:focus {
 }
 
 @media (max-width: 768px){
-	#productos-container .filtros-toggle{
-		margin-bottom: 1em;
-	}
-}
-
 .listado-productos{
 	margin-top: 2em;
 }
