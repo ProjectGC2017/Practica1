@@ -101,4 +101,8 @@ input.form-control:focus {
 @media (max-width: 768px){
 .listado-productos{
 	margin-top: 2em;
+	}
+.listado-productos .card-card-img-top{
+	width:100%;
+	}	
 }
